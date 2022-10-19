@@ -9,9 +9,43 @@ function on (){
 one (); //calling a function 
 
 //function expression
-const two = () => {
-    return 2;
+const Dre = {
+    name: 'Dre',
+    age: '24',
+    Occupation : 'Software Engineer',
+    overTwentyOne : true
 }
-console.log 
+const increaseAge = (person) => {
+    //dot notation
+    person.age +=1;
+    console.log (`Boy you getting old ${person.age}`);
+}
+ increaseAge(Dre);
+
+//circle
+
+const circle = (radius)  => {
+    let pi =3.14;
+    let results = ( radius*radius)*pi;
+    console.log ('the area of ')
+}
+ circle(12);
+
+//planet
+const planet = (earth, mars) => {
+    if (planet === "earth" || planet === "mars"){
+        return true;
+    } else {
+        return false;
+    }
+
+}
+planet(earth);
+planet(mars);
+planet(saturn);
+
+//
+
+
 
 
